@@ -1,0 +1,18 @@
+.MarqueeWrapper{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    height: 20vh;
+    top: 40vh;
+    overflow: hidden;
+
+    .Marquee{
+        color: #402B26;
+        position: relative;
+        white-space: nowrap;
+        font-size: 54px;
+        font-family: 'MonumentExtended-Black';
+        transform: translateX(-10%);
+        will-change: transform;
+    }
+}

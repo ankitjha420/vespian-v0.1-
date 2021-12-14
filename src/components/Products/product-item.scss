@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'MonumentExtended-Regular';
+    src: url(../../fonts/MonumentExtended-Regular.otf);
+}
+
+.product-item{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: #402B26;
+}
+
+.product-1{
+    font-family: 'PPPangramSans-Medium';
+    .product-item-title{
+        position: relative;
+        font-size: 24px;
+        border: solid black 2px;
+        top: 0;
+        left: 0;
+        width: max-content;
+        margin-bottom: 0.75em;
+        font-family: 'MonumentExtended-Regular';
+        padding: 4px 4px;
+    }
+    .info{
+        margin-bottom: 1em;
+    }
+    .price{
+        font-size: 24px;
+        margin-bottom: 2em;
+    }
+    .description{
+        font-size: 18px;
+        width: 45%;
+        line-height: 140.5%;
+    }
+    .product-item-img{
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: solid black 1px;
+        height: 330px;
+        width: 247px;
+        background: url('../../assets/product1.png');
+        background-position: center;
+        background-size: 100%;
+    }
+}
+
+.product-2{
+    font-family: 'PPPangramSans-Medium';
+    .product-item-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 50%;
+        border: solid 1px black;
+        background: url('../../assets/product2.png');
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .product-item-title{
+        position: absolute;
+        top: 58%;
+        font-size: 24px;
+        border: solid 2px black;
+        font-family: 'MonumentExtended-Regular';
+        padding: 4px 4px;
+    }
+
+    .price{
+        position: absolute;
+        right: 20%;
+        top: 58%;
+        font-size: 24px;
+    }
+
+    .info{
+        position: absolute;
+        top: 68%;
+    }
+
+    .description{
+        position: absolute;
+        max-width: 80%;
+        bottom: 10%;
+    }
+}
+
+.product-3{
+    font-family: 'PPPangramSans-Medium';
+    .product-item-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 50%;
+        border: solid 1px black;
+        background: url('../../assets/product3.png');
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .product-item-title{
+        position: absolute;
+        top: 58%;
+        font-size: 24px;
+        border: solid 2px black;
+        font-family: 'MonumentExtended-Regular';
+        padding: 4px 4px;
+    }
+
+    .price{
+        position: absolute;
+        right: 30%;
+        top: 58%;
+        font-size: 24px;
+    }
+
+    .info{
+        position: absolute;
+        top: 68%;
+    }
+
+    .description{
+        position: absolute;
+        max-width: 80%;
+        bottom: 10%;
+    }
+}
+
+.product-4{
+    font-family: 'PPPangramSans-Medium';
+    .product-item-title{
+        position: relative;
+        font-size: 24px;
+        border: solid black 2px;
+        padding: 4px 4px;
+        top: 0;
+        left: 0;
+        width: max-content;
+        margin-bottom: 0.75em;
+        font-family: 'MonumentExtended-Regular';
+    }
+    .info{
+        margin-bottom: 1em;
+        font-family: 'PPPangramSans-Medium';
+    }
+    .price{
+        font-size: 24px;
+        margin-bottom: 2em;
+    }
+    .description{
+        font-size: 18px;
+        width: 45%;
+        line-height: 140.5%;
+    }
+    .product-item-img{
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: solid black 1px;
+        height: 330px;
+        width: 247px;
+        background: url(../../assets/product4.png);
+        background-position: center;
+        background-size: 100%;
+    }
+}

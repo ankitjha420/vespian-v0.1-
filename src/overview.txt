@@ -1,0 +1,6 @@
+This text file will contain all development instructions. Previous project mistakes must be avoided.
+Vespian should be structured very simply.
+
+Body> root> AppWrapper div > (multiples independent components)
+
+Refer vespian structure in figma files.

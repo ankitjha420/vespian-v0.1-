@@ -1,0 +1,24 @@
+/* Some styles that should be applied to the entire DOM */
+
+/* *, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    /* background-color: #92A699; */
+    background-color: #B1C9BA;
+    overflow-x: hidden;
+}
+
+#root{
+    min-height: 100%;
+    width: 100%;
+}
+

@@ -1,0 +1,101 @@
+// heirarchy is as follows: NavbarWrapper > Navbar > menu & title & about & account
+@font-face {
+    font-family: 'MonumentExtended-Black';
+    src: url(../../fonts/MonumentExtended-Black.otf);
+}
+@font-face {
+    font-family: 'PPPangramSans-Medium';
+    src: url(../../fonts/PPPangramSans-Medium.otf);
+}
+@font-face {
+    font-family: 'PPPangramSans-ExtraboldItalic';
+    src: url(../../fonts/PPPangramSans-ExtraboldItalic.otf);
+}
+.NavbarWrapper{
+    color: #402B26;
+    position: relative;
+    top: 30px;
+    left: 5%;
+    width: 90%;
+    height: 50px;
+    overflow: hidden;
+    font-family: 'MonumentExtended-Black';
+
+    .Navbar{
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap: 32px;
+        height: 100%;
+        position: relative;
+    }
+}
+
+.Navbar__menu{
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span{
+        cursor: pointer;
+        padding: 2px 0px 1px;
+    }
+}
+.Navbar__menu:hover{
+    span{
+        border: solid 2px black;
+    }
+}
+.Navbar__title{
+    grid-column: 4 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span{
+        font-size: 40px;
+        cursor: pointer;
+        border: solid 3px black;
+        line-height: 107%;
+        font-family: 'MonumentExtended-Black';
+    }
+}
+
+.Navbar__account{
+    grid-column-start: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span{
+        position: relative;
+        cursor: pointer;
+        top: -1.5px;
+        padding: 2px 0px 1px;
+    }
+}
+.Navbar__account:hover{
+    span{
+        border: solid 2px black;
+    }
+}
+
+.Navbar__about{
+    grid-column: 7 / 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span{
+        position: relative;
+        cursor: pointer;
+        padding: 2px 0px 1px;
+        top: -1.5px;
+        
+    }
+}
+.Navbar__about:hover{
+    span{
+        border: solid 2px black;
+    }
+}

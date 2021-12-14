@@ -1,0 +1,13 @@
+// font
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.AppWrapper{
+    min-height: 340vh;
+    width: 100%;
+    position: relative;
+}
