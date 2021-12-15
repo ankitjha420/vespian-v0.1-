@@ -65,7 +65,6 @@ export default function App(){
         })
     }, [])
 
-    console.log(window.innerWidth, window.innerHeight)
     return(
     <div className='AppWrapper' data-scroll-container ref={AppRef} id='main-container'>
         <Cursor />
