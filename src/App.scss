@@ -7,7 +7,9 @@
 }
 
 .AppWrapper{
-    min-height: 340vh;
+    // min-height: 340vh;
+    height: 340vh;
+    // it worked for now 
     width: 100%;
     position: relative;
 }

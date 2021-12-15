@@ -12,6 +12,7 @@ export default function Navbar(props) {
         const navbarTL = gsap.timeline({delay: 0, ease: 'Power4.out'})
         navbarTL.fromTo(navbarRef.current, {y: '100%'}, {duration: 1, y: '0%'})
     }, [])
+
     return(
         <div className='NavbarWrapper' data-scroll-section>
             <div className='Navbar' ref={navbarRef}>

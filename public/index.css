@@ -15,6 +15,7 @@ body{
     /* background-color: #92A699; */
     background-color: #B1C9BA;
     overflow-x: hidden;
+    cursor: none;
 }
 
 #root{

@@ -45,11 +45,11 @@ export default function Header() {
 
                 <div className='Header__hero'>
 
-                    <div className='Header__left' ref={leftRef}>
+                    <div className='Header__left' ref={leftRef} data-scroll data-scroll-speed="2.5">
                         <div className='leftimg'></div>
                     </div>
 
-                    <div className='Header__quote' ref={quoteRef}>
+                    <div className='Header__quote' ref={quoteRef} data-scroll data-scroll-speed="0.5">
                     <p className='quoteText'>
                     “Good design is as little as possible. Less, but <span className='ExtraboldItalic'>
                     better,</span> because it concentrates 
@@ -57,14 +57,14 @@ export default function Header() {
                     Back to purity, back to <span className='ExtraboldItalic'>simplicity</span>.”
                     <br />
                     <br />
-                    <span className='DieterRams'>― Dieter Rams</span>
+                    <a href='https://en.wikipedia.org/wiki/Dieter_Rams' className='DieterRams'>― Dieter Rams</a>
                     </p>
                     </div>
 
-                    <div className='Header__centre' ref={centreRef}>
+                    <div className='Header__centre' ref={centreRef} data-scroll data-scroll-speed="1">
                         <div className='centreimg'></div>
                     </div>
-                    <div className='Header__right' ref={rightRef}>
+                    <div className='Header__right' ref={rightRef} data-scroll data-scroll-speed="2.5">
                     <div className='rightimg'></div>
                     </div>
                 </div>

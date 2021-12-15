@@ -64,7 +64,10 @@
         font-family: 'PPPangramSans-Medium';
 
         .DieterRams{
+            color: inherit;
             font-family: 'MonumentExtended-Black';
+            text-decoration: none;
+            cursor: pointer;
         }
         .ExtraboldItalic{
             font-family: 'PPPangramSans-ExtraboldItalic';
@@ -96,7 +99,6 @@
 .Header__right{
     position: absolute;
     height: 80%;
-    border: solid black 1px;
     width: 25%;
     right: 0;
     bottom: 0;
