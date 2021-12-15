@@ -9,8 +9,8 @@ export default function Navbar(props) {
     // menu click
     // only run once effect
     useEffect(() => {
-        const navbarTL = gsap.timeline({delay: 0, ease: 'Power4.out'})
-        navbarTL.fromTo(navbarRef.current, {y: '100%'}, {duration: 1, y: '0%'})
+        const navbarTL = gsap.timeline({delay: 1, ease: 'Power4.out'})
+        navbarTL.fromTo(navbarRef.current, {y: '100%'}, {duration: 1.5, y: '0%'})
     }, [])
 
     return(
