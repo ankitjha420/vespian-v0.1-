@@ -11,3 +11,5 @@ Locomotive js
 Greensock (GSAP)
 
 Live website: https://vespian.netlify.app/
+
+*netflify site introduces a bug in the Navbar Menu button. Although everything works fine when the app is run on locally.
